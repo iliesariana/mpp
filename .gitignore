@@ -1,0 +1,38 @@
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+.env
+.env.*         # catch .env.local, .env.production, etc.
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor configs
+.vscode/
+.idea/
+
+# Build and cache
+dist/
+build/
+.cache/
+
+# Images (optional)
+frontend/src/assets/*.png
+frontend/public/images/
+*.webp
+*.jpeg
+*.jpg
+
+# Test coverage
+coverage/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo            # sometimes Vim creates these too
